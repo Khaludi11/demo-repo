@@ -1,0 +1,119 @@
+body{
+	font:15px/ 1.5 Times New Roman;
+	padding: 0;
+	
+	background-image:url(image.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+header{
+	background:#023047 ;
+	color: #ffffff;
+	padding-top:0 ;
+	min-height: 50px;
+	border-bottom: #e8491d 3px solid;
+	margin:  -10px -10px -10px -10px ;
+	
+}
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+
+}
+header ul{
+	padding: 0;
+	margin: 0;
+
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 20px 20px 0 20px;
+}
+header #name{
+	float: left;
+	padding: 20px;
+}
+header #name h1{
+	margin: 0;
+}
+header nav{
+	float:  right;
+	margin-top: 10px;
+}
+
+header h1 {
+	color: #e8491d;
+	font-weight: bold;
+	font-family: Brush Script MT;
+}
+
+header .current a{
+	color: #e8491d;
+	font-weight: bold;
+}
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+#foot{
+	border: none;
+	padding: 20px;
+	margin-top: 150px;
+	color:#ffffff ;
+	background-color: #023047;
+	text-align: center;
+	border-top: #e8491d 3px solid;
+	margin-bottom:   -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+#showcase{
+	font-size: 20px;
+	min-height: 50px;
+}
+#showcase h1 span{
+	font-family:Brush Script MT ;
+	color:#e8491d ;
+	min-height: 100px;
+}
+
+#showcase h1{
+
+	margin-left:none ;
+	font-size: 50px;
+	margin-top: 100px;
+	
+}
+#contact{
+	min-height:180px;
+	margin-bottom:0px ;
+	font-size:40px;
+}
+#boxes{
+	margin-top: 20px;
+}
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+	
+}
+#boxes .box img{
+	
+	width:40px;
+}
+
+
+
+
